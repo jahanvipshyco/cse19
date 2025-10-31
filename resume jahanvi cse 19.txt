@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+
+<body>
+    <h1><u>Resume</u></h1>
+    <p><b>Name:</b> <i>Jahanvi tiwari</i> &copy; </p>
+    <p><b>Email:</b> <u>jahanvi.tiwari@email.com</u></p>
+    <p><b>Objective:</b> <br>
+        <i>To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills.</i>
+    </p>
+
+    <h2><u>Education</u></h2>
+    <ol>
+        <li>B.Tech in Computer Science & Engineering &lt;2021-2025&gt; <br>
+            <ul>
+                <li><b>University:</b> XYZ Institute of Technology</li>
+                <li><b>CGPA:</b> 8.5</li>
+            </ul>
+        </li>
+        <li>12<sup>th</sup> Grade &lt;2019-2021&gt; <br>
+            <ul>
+                <li><b>School:</b> ABC Senior Secondary School</li>
+                <li><b>Percentage:</b> 90%</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2><u>Skills</u></h2>
+    <ul>
+        <li><b>Programming Languages:</b>
+            <ol>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Python &amp; JavaScript</li>
+            </ol>
+        </li>
+        <li><b>Frameworks:</b> React, Node.js</li>
+        <li><b>Tools:</b> Git, VS Code</li>
+    </ul>
+
+    <h2><u>Projects</u></h2>
+    <ul>
+        <li>
+            <b>Student Management System</b><br>
+            A web-based application to manage student records. 
+        </li>
+        <li>
+            <b>Portfolio Website</b><br>
+            Designed my personal portfolio using HTML, CSS &amp; JavaScript.
+        </li>
+        <li>
+            <b>Mixed List Example:</b>
+            <ul>
+                <li>Project Planning
+                    <ol>
+                        <li>Requirement Analysis</li>
+                        <li>Design</li>
+                        <li>Implementation</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+   <h2><u>Languages</u></h2>
+    <dl>
+        <dt>English</dt>
+        <dd>Fluent (Read, Write, Speak)</dd>
+        <dt>Hindi</dt>
+        <dd>Native Speaker</dd>
+    </dl>
+
+    <h2><u>Contact</u></h2>
+    <ul>
+        <li>Mobile: <b>+91-1111111110</b></li>
+        <li>Email: <u>jahanvi.tiwari@email.com</u></li>
+        <li>Address: 123, Green Park, Delhi, India &gt;</li>
+    </ul>
+</body>
+
+</html>
