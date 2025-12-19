@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MR DIY | Home Improvement Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #ffd600;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: #000;
+            font-weight: bold;
+        }
+
+        /* Navigation */
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Banner */
+        .banner {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .banner h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        /* Categories */
+        .categories {
+            padding: 40px;
+            background-color: #fff;
+        }
+
+        .categories h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .category {
+            background-color: #ffd600;
+            padding: 25px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .category a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            display: block;
+        }
+
+        /* Products */
+        .products {
+            padding: 40px;
+        }
+
+        .products h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .product p {
+            margin: 10px 0;
+        }
+
+        .product a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #000;
+            padding: 8px 15px;
+            display: inline-block;
+            border-radius: 4px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #ffd600;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>MR.DIY</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#categories">Shop</a>
+            <a href="#services">Services</a>
+            <a href="#orders">Orders</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner" id="home">
+        <h2>Welcome to MR.DIY</h2>
+        <p>Always Low Prices | Home Improvement & Accessories</p>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories" id="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category"><a href="#accessories">Accessories</a></div>
+            <div class="category"><a href="#home">Home Essentials</a></div>
+            <div class="category"><a href="#stationery">Stationery</a></div>
+            <div class="category"><a href="#electronics">Electronics</a></div>
+            <div class="category"><a href="#kitchen">Kitchen Items</a></div>
+            <div class="category"><a href="#tools">Tools & Hardware</a></div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="services">
+        <h2>Popular Items</h2>
+        <div class="product-grid">
+            <div class="product">
+                <p>Mobile Holder</p>
+                <p>₹199</p>
+                <a href="#order">Order Now</a>
+            </div>
+            <div class="product">
+                <p>Plastic Storage Box</p>
+                <p>₹299</p>
+                <a href="#order">Order Now</a>
+            </div>
+            <div class="product">
+                <p>LED Night Lamp</p>
+                <p>₹249</p>
+                <a href="#order">Order Now</a>
+            </div>
+            <div class="product">
+                <p>Kitchen Organizer</p>
+                <p>₹349</p>
+                <a href="#order">Order Now</a>
+            </div>
+            <div class="product">
+                <p>study table</p>
+                <p>₹449</p>
+                <a href="#order">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>© 2025 MR.DIY Clone | Educational Project</p>
+        <p>
+            <a href="#privacy">Privacy Policy</a> |
+            <a href="#terms">Terms & Conditions</a> |
+            <a href="#help">Help</a>
+        </p>
+    </footer>
+
+</body>
+</html>
