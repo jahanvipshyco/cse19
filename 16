@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display property</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .header{
+        height:50px;
+        width:100%;
+        background-color:gray;
+        margin:4px;
+        line-height: 50px; }
+        .main{
+            background-color: beige;
+            height: 50%;
+            width: 70%;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header" >
+     <center>   <h2 style="color: aliceblue;">Online Shopping</h2></center>
+    </div>
+   <center> <div class="main">
+       <center><img src="https://i.pinimg.com/736x/d8/df/c1/d8dfc118a0d42551ff4084d10a23254d.jpg" alt="T Shirt"height="450px" width="350px"></center>
+    <h2>T-shirt premium quality at lowest price</h2>
+    <span>Rs 2,50,000</span>
+    <input type="button"value="Add to cart">
+ </center>   </div>
+    
+</body>
+</html>
